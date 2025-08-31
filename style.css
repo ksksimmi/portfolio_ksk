@@ -1,0 +1,183 @@
+body{
+    background-color: #14213d;
+    color: #e5e5e5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #14213d;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 023px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #e5e5e5;
+}
+nav ul li a:hover{
+    font-size: 21px;
+    color: dodgerblue;
+}
+
+.left{
+    font-size: xxx-large;
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+}
+
+.right{}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.hero .btn{
+    padding: 12px;
+    background-color: #fca311;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero > div{
+    width: 30%;
+}
+
+#element{
+    color: #fca311;
+}
+
+.hero-content-left {
+    font-size: 4rem;
+    margin: 60px 0;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.hero-content-right img {
+    width: 90%;
+}
+
+.name{
+    color: #fca311;
+}
+
+main hr{
+    border: 0;
+    background-color: dodgerblue;
+    margin: 50px 80px;
+    height: 2.5px;
+}
+
+.content{
+    max-width: 80vw;
+    margin: auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.text-white{
+    color: grey;
+}
+
+
+.work-experience {
+    margin: 60px 0;
+}
+
+.card {
+    background: #fff;
+    color: #14213d;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.08);
+    margin: 20px 0;
+}
+.card h2 {
+    margin: 0 0 6px;
+    font-size: 1.25rem;
+}
+.card .year {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.card p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+.skills {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 80vw;
+    margin: 50px auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.skills h2 {
+    margin-bottom: 50px;
+}
+.skills .btn {
+    width: 200px;
+    padding: 5px 10px;
+    background-color: #fca311;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+footer{
+    background-color: rgb(112, 160, 209);
+    height: 130px;
+    padding: 3.5%;
+    
+}
+.footer{
+    display: flex;
+    padding: 22px 123px;
+    justify-content: space-evenly;
+}
+.footer ul{
+ list-style:circle;
+}
+.footer > div{
+    width: 223px;
+    justify-content: space-evenly;
+    
+}
+footer .footer-rights{
+    text-align: center;
+    color:gold;
+    padding: 12px 0px;
+    font-size: larger;
+    font-family:cursive;
+}
